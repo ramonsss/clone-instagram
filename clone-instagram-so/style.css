@@ -1,0 +1,211 @@
+/* estilos gerais */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: helvetica;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+#main-container {
+    display: flex;
+    margin-top: 30px;
+}
+
+/* imagem do celular */
+
+#banner-container
+{
+    text-align: right;
+}
+
+/* formulario */
+
+#banner-container,
+#form-container {
+    flex: 1 1 0;
+    width: 50%;
+}
+
+#banner-container img {
+    width: 100%;
+    margin-right: 15px;
+    margin-top: 25px;
+    max-width: 380px;
+}
+
+#form-container {
+    text-align: center;
+}
+
+#form-box {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    width: 350px;
+    margin-top: 30px;
+}
+
+#form-box .logo-insta {
+    width: 175px;
+    height: 51px;
+    margin: 30px auto 42px;
+}
+
+#form-box input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 7px;
+    border: none;
+    border: 1px solid #dbdbdd;
+    background-color: #fafafa;
+    border-radius: 5px;
+}
+
+#form-box input[type="submit"] {
+    position: relative;
+    background-color: #b2dffc;
+    color: #fff;
+    margin-top: 8px;
+    padding: 7px;
+    width: 80%;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+#form-box input[type="submit"]:hover {
+    background-color: #8bcffd;
+}
+
+/* separador */
+
+#separator {
+    position: relative;
+}
+
+#separator #line {
+    border-top: 1px solid #dbdbdb;
+    width: 268px;
+    margin: 25px auto 30px;
+}
+
+#separator span {
+    position: absolute;
+    text-transform: uppercase;
+    color: #bbb;
+    background-color: #fff;
+    top: -6px;
+    width: 50px;
+    margin-left: -25px;
+    font-size: 14px;
+}
+
+/* login com facebook */
+
+#facebook {
+    text-align: center;
+}
+
+#facebook .logo-facebook {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+#facebook a {
+    text-decoration: none;
+    color: #385185;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+#facebook span {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 1px;
+}
+
+#facebook .forgot-passwword {
+    position: relative;
+    font-size: 13px;
+    left: 10px;
+}
+
+
+/* criar uma conta nova */
+
+#register-box {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    position: relative;
+    margin-top: 10px;
+    padding: 20px;
+    width: 350px;
+}
+
+#register-box p {
+    font-size: 14px;
+    color: #262626;
+}
+
+#register-box a {
+    font-size: 14;
+    color: #4a95f6;
+    font-weight: bold;
+}
+
+#others {
+    text-align: center;
+    width: 350px;
+}
+
+#others p {
+    margin: 13px 0;
+    font-size: 13px;
+    color: #262626;
+}
+
+#others img {
+    width: 136px;
+    height: 40px;
+}
+
+footer {
+    text-align: left;
+    width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+}
+
+footer li {
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+footer a,
+#copyright {
+    color: #8e8e8e;
+    font-size: 12px;
+}
